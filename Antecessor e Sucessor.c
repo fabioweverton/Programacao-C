@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 int main(){
-    int numero = 4610;
+    int numero;
+    scanf("%d", &numero);
     printf("%d ", numero -1);
-    printf("%d\n", numero +1);
-    return 0;
-
+    printf("%d ", numero +1);
 }
