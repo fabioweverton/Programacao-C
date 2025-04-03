@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <math.h>
-int main(){
-    float a, b, MEDIA;
-    scanf("%f\n", &a);
-    scanf("%f\n", &b);
-    MEDIA = (a + b)/2;
-    printf("MEDIA = %.5f\n",MEDIA);
+int main()
+{
+    int  a, b, media;
+    scanf("%d\n", &a);
+    scanf("%d\n", &b);
+
+    media = (a + b) / 2;
+    scanf("%d\n", &media);
+
+    printf("MEDIA = %.5d\n");
 }
