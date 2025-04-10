@@ -1,0 +1,44 @@
+Ana Souza
+Medicina
+12345
+3250.00
+Bruno Lima
+Engenharia da Computação
+234567
+5400.00
+Carlos Mendes
+Medicina
+34567
+1250.00
+Daniela Alves
+Economia
+45678
+2300.00
+Eduardo Santos
+Medicina
+56789
+6700.00
+Fernanda Ribeiro
+Engenharia da Computação
+67890
+9150.00
+Gustavo Ferreira
+Medicina
+78901
+500.00
+Helena Martins
+Economia
+89012
+3980.00
+Igor Costa
+Medicina
+90123
+4120.00
+Juliana Barbosa
+Engenharia da Computação
+1234
+7800.00
+Nicollas Provatti
+Medicina
+1999
+0.00
