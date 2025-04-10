@@ -10,7 +10,7 @@ typedef struct usuario {
 } Usuario;
 
 void carregarDados(Usuario usuarios[], int *qtd) {
-    FILE *arquivo = fopen("usuarios.txt", "r");
+    FILE *arquivo = fopen("projeto.txt", "r");
 
     if (arquivo == NULL) {
         printf("Arquivo não encontrado!\n");
@@ -25,7 +25,7 @@ void carregarDados(Usuario usuarios[], int *qtd) {
 }
 
 void salvarDados(Usuario usuarios[], int *qtd) {
-    FILE *arquivo = fopen("usuarios.txt", "w");
+    FILE *arquivo = fopen("projeto.txt", "w");
 
     if (arquivo == NULL) {
         printf("Error.\n");
@@ -69,6 +69,30 @@ void exebirAlunos(Usuario usuarios[], int *qtd) {
     }
 }
 
+void buscarAlunos(Usuario usuarios[], int *qtd) {
+    printf("\n");
+    FILE *arquivo = fopen("projeto.txt", "w");
+
+    if (arquivo == NULL) {
+        printf("Error.\n");
+        return;
+    }
+
+    for (int i = 0; i < *qtd; i++) {
+        fprintf(arquivo, "%s\n%s\n%d\n%.2f\n", usuarios[i].nome, usuarios[i].curso, usuarios[i].matricula, usuarios[i].notas);
+        printf("Digite a matricula do aluno(a) que deseja buscar: ");
+        scanf("%d", &usuarios[*qtd].matricula);
+        getchar();
+    
+        printf("Aluno encontrado:\n");
+        printf("Nome: %s\n", usuarios[i].nome);
+        printf("Curso: %s\n", usuarios[i].curso);
+        printf("Matriicula: %d\n", usuarios[i].matricula);
+        printf("Nota: %.2f\n\n", usuarios[i].notas);
+    }   
+
+}
+
 int main() {
 
     Usuario usuarios[TAM];
@@ -106,6 +130,11 @@ int main() {
             case 2:
                 exebirAlunos(usuarios, &qtdUsarios);
                 break;
+
+            case 3:
+                buscarAlunos(usuarios, &qtdUsarios);
+                break;
+
         }
     }
 
