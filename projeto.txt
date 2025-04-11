@@ -1,44 +1,48 @@
 Ana Souza
-Corrente
-12345
-3250.00
+Medicina
+2505
+9.00
 Bruno Lima
-Poupanca
-234567
-5400.00
+ADS
+4697
+9.00
 Carlos Mendes
-Corrente
-34567
-1250.00
+Medicina
+3456
+9.00
 Daniela Alves
-Salario
-45678
-2300.00
+Fisica
+4567
+2.00
 Eduardo Santos
-Corrente
-56789
-6700.00
+Medicina
+5678
+9.00
 Fernanda Ribeiro
-Poupanca
-67890
-9150.00
+ADS
+6789
+9.00
 Gustavo Ferreira
-Corrente
-78901
-500.00
+Medicina
+7890
+2.00
 Helena Martins
-Salario
-89012
-3980.00
+Fisica
+8901
+9.00
 Igor Costa
-Corrente
-90123
-4120.00
+Medicina
+9012
+9.00
 Juliana Barbosa
-Poupanca
+ADS
 1234
-7800.00
+9.00
 Nicollas Provatti
-Corrente
+Medicina
 1999
-0.00
+9.00
+Janine
+ADS
+1902
+10.00
