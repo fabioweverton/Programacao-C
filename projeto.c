@@ -251,6 +251,15 @@ int main()
 
         case 5:
             removerAluno(usuarios, &qtdUsarios);
+
+        case 6:
+            printf("\nSalvando e recarregando dados...\n");
+            salvarDados(usuarios, &qtdUsarios);
+            qtdUsarios = 0;
+            carregarDados(usuarios, &qtdUsarios);
+            printf("Dados salvos e recarregados com sucesso!\n");
+            printf("Total de alunos: %d\n\n", qtdUsarios);
+            break;
         }
         
     }
